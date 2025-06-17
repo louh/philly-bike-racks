@@ -17,9 +17,6 @@ if (args.length === 0) {
 
 const filePath = args[0];
 
-// This is the column from the CSV we are reading
-const COLUMN_NAME = "Rack Address";
-
 // Initialize geocoder client
 const pelias = new Pelias.default({
   peliasUrl: `https://${process.env.PELIAS_HOST_NAME}`,
@@ -43,10 +40,13 @@ const records = parse(content, {
 
 // Create search function
 function doSearch (record) {
-  const address = record[COLUMN_NAME];
+  const address = record["Rack Address"];
+  const approved = record["Approved?"];
+
   return new Promise((resolve, reject) => {
     // Skip if no address in record
-    if (address === "") {
+    // Also skip if not approved
+    if (address === "" || approved !== "TRUE") {
       resolve(null)
     }
 
@@ -81,7 +81,7 @@ const throttled = throttle(doSearch);
 // I don't exactly know how many of these we can run at a time
 // This is where we geocode each address
 const results = await pMap(records, throttled, {
-  concurrency: 5
+  concurrency: 15
 });
 
 // Output a GeoJSON with the result of the first search result of each
