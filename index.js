@@ -72,7 +72,7 @@ function doSearch (record) {
 // Not sure what the rate limit is but this is conservative.
 // We can probably bump this up until we hit 429s
 const throttle = pThrottle({
-  limit: 10,
+  limit: 3,
   interval: 1000
 });
 
@@ -81,7 +81,7 @@ const throttled = throttle(doSearch);
 // I don't exactly know how many of these we can run at a time
 // This is where we geocode each address
 const results = await pMap(records, throttled, {
-  concurrency: 15
+  concurrency: 5
 });
 
 // Output a GeoJSON with the result of the first search result of each
