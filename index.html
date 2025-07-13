@@ -4,8 +4,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>philly bike racks</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@2.0.0-alpha/dist/leaflet.css" crossorigin=""/>
+  <style>
+    body {
+      margin: 0;
+    }
+    #map {
+      width: 100vw;
+      height: 100vh;
+    }
+    .properties-table {
+      min-width: 250px;
+      border: 1px solid black;
+      border-collapse: collapse;
+
+      tr, td {
+        border: 1px solid black;
+      }
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "leaflet": "https://unpkg.com/leaflet@2.0.0-alpha/dist/leaflet.js"
+      }
+    }
+  </script>
 </head>
 <body>
-  todo
+  <div id="map"></div>
+  <script type="module">
+    import L, { Map, TileLayer, Marker, Circle, Polygon, Popup, GeoJSON, CircleMarker } from 'leaflet';
+
+    const map = new Map('map').setView([39.952, -75.175], 13);
+
+    const tiles = new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    const response = await fetch('./output/output-all.geojson');
+    if (!response.ok) {
+      throw new Error('error');
+    }
+    const data = await response.json();
+
+    const geojsonMarkerOptions = {
+      radius: 6,
+      fillColor: "gray", // fall back if status is an unknown value
+      color: "#000",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.8
+    };
+
+    new GeoJSON(data, {
+      // Style a dot according to its current state property
+      pointToLayer: function (feature, latlng) {
+        const fill = {
+          "Operational": "green",
+          "Never Built": "purple",
+          "Unknown": "yellow",
+          "Missing": "red"
+        }[feature.properties["Current State"]]
+        return new CircleMarker(latlng, {
+          ...geojsonMarkerOptions,
+          fillColor: fill
+        });
+      }
+    }).bindPopup(function (layer) {
+      return makePropertiesTable(layer);
+    }).addTo(map);
+
+    function makePropertiesTable(layer) {
+      let html = `<table class="properties-table"><tbody>`;
+      const properties = layer.feature.properties;
+      for (const [key, value] of Object.entries(properties)) {
+        // Skip blank keys
+        if (key !== '') {
+          html += `<tr><td><strong>${key}</strong></td><td>${value}</td></tr>`;
+        }
+      }
+      html += `</tbody></table>`;
+      return html;
+    }
+  </script>
 </body>
 </html>
