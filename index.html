@@ -8,6 +8,11 @@
   <style>
     body {
       margin: 0;
+      box-sizing: border-box;
+
+      * {
+        box-sizing: inherit;
+      }
     }
     #map {
       width: 100vw;
@@ -22,6 +27,55 @@
         border: 1px solid black;
       }
     }
+    #controls {
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      background-color: white;
+      padding: 5px 15px;
+      z-index: 1000;
+      border-radius: 16px;
+      font-family: system-ui;
+      box-shadow: 0 0 20px rgba(0 0 0 / 10%);
+
+      h1 {
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+      }
+      h2 {
+        margin: 0.25rem 0;
+        font-size: 1.1rem;
+      }
+      .small {
+        font-size: 0.9rem;
+        color: gray;
+      }
+    }
+    .circle {
+      border-radius: 999em;
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      border: 1px solid black;
+      background-color: gray;
+      margin-right: 0.25em;
+    }
+    .circle-operational {
+      background-color: green;
+    }
+    .circle-neverbuilt {
+      background-color: purple;
+    }
+    .circle-unknown {
+      background-color: yellow;
+    }
+    .circle-missing {
+      background-color: red;
+    }
+    .error {
+      font-weight: bold;
+      color: red;
+    }
   </style>
   <script type="importmap">
     {
@@ -33,10 +87,23 @@
 </head>
 <body>
   <div id="map"></div>
-  <script type="module">
-    import L, { Map, TileLayer, Marker, Circle, Polygon, Popup, GeoJSON, CircleMarker } from 'leaflet';
+  <div id="controls">
+    <h1>Philly Bike Racks</h1>
+    <h2>Current state</h2>
+    <input type="checkbox" id="filter-operational" value="Operational"> <label for="filter-operational"><span class="circle circle-operational"></span>Operational</label><br>
+    <input type="checkbox" id="filter-neverbuilt" value="Never Built"> <label for="filter-neverbuilt"><span class="circle circle-neverbuilt"></span>Never Built</label><br>
+    <input type="checkbox" id="filter-unknown" value="Unknown"> <label for="filter-unknown"><span class="circle circle-unknown"></span>Unknown</label><br>
+    <input type="checkbox" id="filter-missing" value="Missing"> <label for="filter-missing"><span class="circle circle-missing"></span>Missing</label><br>
+    <p class="small">
+      view <a href="https://github.com/louh/philly-bike-racks" target="_blank">source code</a>,
+      <a href="https://docs.google.com/spreadsheets/d/1dJYAgbbzTxn_7t_XpmxsxV8Y0lGQWhTUleHiyglx85w/edit?gid=140095656#gid=140095656" target="_blank">raw data</a>
+    </p>
+  </div>
 
-    const map = new Map('map').setView([39.952, -75.175], 13);
+  <script type="module">
+    import L, { Map, TileLayer, CircleMarker } from 'leaflet';
+
+    const map = new Map('map').setView([39.960, -75.175], 13);
 
     const tiles = new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -45,11 +112,12 @@
 
     const response = await fetch('./output/output-all.geojson');
     if (!response.ok) {
+      document.getElementById('controls').innerHTML = '<p class="error">There was an error retrieving data. Please see console for more details</p>'
       throw new Error('error');
     }
     const data = await response.json();
 
-    const geojsonMarkerOptions = {
+    const defaultMarkerOptions = {
       radius: 6,
       fillColor: "gray", // fall back if status is an unknown value
       color: "#000",
@@ -58,27 +126,30 @@
       fillOpacity: 0.8
     };
 
-    new GeoJSON(data, {
-      // Style a dot according to its current state property
-      pointToLayer: function (feature, latlng) {
-        const fill = {
-          "Operational": "green",
-          "Never Built": "purple",
-          "Unknown": "yellow",
-          "Missing": "red"
-        }[feature.properties["Current State"]]
-        return new CircleMarker(latlng, {
-          ...geojsonMarkerOptions,
-          fillColor: fill
-        });
-      }
-    }).bindPopup(function (layer) {
-      return makePropertiesTable(layer);
-    }).addTo(map);
+    // this gives us an array of markers we can programatically target
+    // a little more flexible than using the built-in GeoJSON class
+    const markers = data.features;
+    markers.forEach(m => {
+      const fill = {
+        "Operational": "green",
+        "Never Built": "purple",
+        "Unknown": "yellow",
+        "Missing": "red"
+      }[m.properties["Current State"]];
+      // Swap order of tuple from geojson
+      const latlng = [m.geometry.coordinates[1], m.geometry.coordinates[0]];
+      const options = {
+        ...defaultMarkerOptions,
+        fillColor: fill
+      };
 
-    function makePropertiesTable(layer) {
+      m.marker = new CircleMarker(latlng, options).addTo(map);
+      m.marker.bindPopup(makePropertiesTable(m));
+    });
+
+    function makePropertiesTable(feature) {
       let html = `<table class="properties-table"><tbody>`;
-      const properties = layer.feature.properties;
+      const properties = feature.properties;
       for (const [key, value] of Object.entries(properties)) {
         // Skip blank keys
         if (key !== '') {
@@ -87,6 +158,30 @@
       }
       html += `</tbody></table>`;
       return html;
+    }
+
+    const fOper = document.getElementById('filter-operational');
+    const fNevb = document.getElementById('filter-neverbuilt');
+    const fUnkn = document.getElementById('filter-unknown');
+    const fMiss = document.getElementById('filter-missing');
+    fOper.addEventListener('change', handleChange);
+    fNevb.addEventListener('change', handleChange);
+    fUnkn.addEventListener('change', handleChange);
+    fMiss.addEventListener('change', handleChange);
+
+    function handleChange(event) {
+      const value = event.target.value;
+      const checked = event.target.checked;
+
+    	markers.forEach(s => {
+        if (s.properties['Current State'] === value) {
+          if (!checked) {
+            map.removeLayer(s.marker);
+          } else if(!map.hasLayer(s.marker)) {
+            map.addLayer(s.marker);
+          }
+        }
+      });
     }
   </script>
 </body>
