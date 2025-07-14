@@ -101,7 +101,7 @@
   </div>
 
   <script type="module">
-    import L, { Map, TileLayer, CircleMarker } from 'leaflet';
+    import { Map, TileLayer, CircleMarker } from 'leaflet';
 
     const map = new Map('map').setView([39.960, -75.175], 13);
 
@@ -128,23 +128,23 @@
 
     // this gives us an array of markers we can programatically target
     // a little more flexible than using the built-in GeoJSON class
-    const markers = data.features;
-    markers.forEach(m => {
-      const fill = {
+    const features = data.features;
+    features.forEach(f => {
+      const fillColor = {
         "Operational": "green",
         "Never Built": "purple",
         "Unknown": "yellow",
         "Missing": "red"
-      }[m.properties["Current State"]];
+      }[f.properties["Current State"]];
       // Swap order of tuple from geojson
-      const latlng = [m.geometry.coordinates[1], m.geometry.coordinates[0]];
+      const latlng = f.geometry.coordinates.toReversed();
       const options = {
         ...defaultMarkerOptions,
-        fillColor: fill
+        fillColor
       };
 
-      m.marker = new CircleMarker(latlng, options).addTo(map);
-      m.marker.bindPopup(makePropertiesTable(m));
+      f.marker = new CircleMarker(latlng, options).addTo(map);
+      f.marker.bindPopup(makePropertiesTable(f));
     });
 
     function makePropertiesTable(feature) {
@@ -160,25 +160,21 @@
       return html;
     }
 
-    const fOper = document.getElementById('filter-operational');
-    const fNevb = document.getElementById('filter-neverbuilt');
-    const fUnkn = document.getElementById('filter-unknown');
-    const fMiss = document.getElementById('filter-missing');
-    fOper.addEventListener('change', handleChange);
-    fNevb.addEventListener('change', handleChange);
-    fUnkn.addEventListener('change', handleChange);
-    fMiss.addEventListener('change', handleChange);
+    document.getElementById('filter-operational').addEventListener('change', handleChange);
+    document.getElementById('filter-neverbuilt').addEventListener('change', handleChange);
+    document.getElementById('filter-unknown').addEventListener('change', handleChange);
+    document.getElementById('filter-missing').addEventListener('change', handleChange);
 
     function handleChange(event) {
       const value = event.target.value;
       const checked = event.target.checked;
 
-    	markers.forEach(s => {
-        if (s.properties['Current State'] === value) {
+    	features.forEach(f => {
+        if (f.properties['Current State'] === value) {
           if (!checked) {
-            map.removeLayer(s.marker);
-          } else if(!map.hasLayer(s.marker)) {
-            map.addLayer(s.marker);
+            map.removeLayer(f.marker);
+          } else if (!map.hasLayer(f.marker)) {
+            map.addLayer(f.marker);
           }
         }
       });
