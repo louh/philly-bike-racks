@@ -41,12 +41,10 @@ const records = parse(content, {
 // Create search function
 function doSearch (record) {
   const address = record["Rack Address"];
-  const approved = record["Approved?"];
 
   return new Promise((resolve, reject) => {
     // Skip if no address in record
-    // Also skip if not approved
-    if (address === "" || approved !== "TRUE") {
+    if (address === "") {
       resolve(null)
     }
 
