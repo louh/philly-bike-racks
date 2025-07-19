@@ -1,0 +1,185 @@
+District/Neighborhood,Requesting Business,Rack Address,Application Date,Approved?,Approval Date?,Built?,Number of Racks Proposed,Number of Racks Built,Current State,Notes/Images
+D5,"1919 Market, LP","1919 Market St, Philadelphia, PA 19103",11/12/2014,FALSE,,TRUE,4,0,Unknown,"The included plans depict four racks, three on Market and one on 20th. A review of street view on google maps suggests that most were never installed or have been removed."
+D7,"Tajdeed Development Associats, LP","1505 Cadwallader St, Philadelphia, PA 19122",2014,FALSE,,TRUE,1,0,Unknown,The document provided was only a single letter indicating deficiencies in the application. Google maps does show a single rack here.
+D7,"Tajdeed Development Associats, LP","246 W Oxford St, Philadelphia, PA 19122",2014,FALSE,,TRUE,4,0,Unknown,The document provided was only a single letter indicating deficiencies in the application. Google maps does show racks at this location. Two on W Oxford street and two more visible from N Bodine in the parking area for this project.
+D1,"East Firth Street, LP","801 N 2nd St, Philadelphia, PA 19123",5/28/2014,FALSE,,TRUE,8,0,Unknown,"It appears these were built as designed based on street view from 2015, but current conditions appear to differ. From street view dated 2022, it looks like there are four U racks on Brown St and a spiral rack on 2nd instead of the 8 U racks previously installed as a part of this project."
+D3,The Study at University City,"20 S 33rd St, Philadelphia, PA 19104",9/29/2014,FALSE,,TRUE,7,0,Unknown,"It's difficult to get a count from street view with parked cars obscuring the racks, but the current conditions bear little resemblance to the 2014 plans that proposed only 7 racks. It looks like there are 30+ at this property."
+D4/West Philly,Wynne Senior Residences,"2003 N 54th St, Philadelphia PA 19131",7/22/2015,TRUE,10/15/2015,TRUE,9,3,Operational,9 proposed but looks like only 3 built
+D5/Center City,W Hotel,"1441 Chestnut St, Philadelphia PA 19102",8/19/15,TRUE,11/25/2015,TRUE,2,2,Operational,
+D1/Northern Liberties,Northern Liberties Piazza,"145 West Wildey St, Philadelphia PA  19123",1/26/2015,TRUE,3/9/2015,TRUE,4,2,Operational,"4 proposed, but I could only get eyes on 2 so putting 2 to be conservative"
+D3/University City,University City Science Center,"3601 Market St, Philadelphia PA 19104",3/12/2015,TRUE,5/27/2015,TRUE,12,10,Operational,12 proposed 10 built
+D3/University City,University of Pennsylvania,"3600 Spruce St, Philadelphia PA 19104",12/15/2014,TRUE,1/30/15,FALSE,0,0,Never Built,"Can't find evidence that they planned racks, don't see any there now"
+D3/University City,,"3600 Civic Center Boulevard, Philadelphia PA 19104",1/9/2015,TRUE,2/19/2015,TRUE,17,17,Operational,"Despite more construction on the block, they are still there and operational - they are actually on West Service Dr."
+D3/University City,Radnor Property Group,"3201 Race Street, Philadelphia PA 19104",11/30/2015,TRUE,,TRUE,5,5,Operational,"No approval document, but they are built"
+D1/Kensington,Orinoka Civic House,"2721 Ruth Street, Philadelphia PA 19134",12/16/2015,TRUE,,TRUE,10,10,Operational,"Couldn't get eyes on all 10 but saw at least 5, didn't see approval doc"
+D5/North Philly,TECH Friere Charter School,"2221 N Broad Street, Philadelphia PA 19132",10/15/15,TRUE,10/27/15,FALSE,6,0,Never Built,
+D5/Logan Square,The Church of Jesus Christ of Latter-Day Saints,"1601 Vine Street, Philadelphia PA 19103",8/5/15,TRUE,8/14/15,TRUE,2,2,Operational,
+D5/East Kensington,N/A (Personal residence),"1220 N Mascher St, Philadelphia, PA 19122",11/16/2015,FALSE,N/A,FALSE,1,0,Never Built,No approval stamp on plans. Does not appear on Street View (between 2015 and latest date Apr 2023).
+D1/Callowhill,Hamilton 1220 Square,"1220 Hamilton St, Philadelphia, PA 19123",7/23/2015,TRUE,8/5/2015,FALSE,N/A,0,Never Built,Approval letter; no plans in directory. Does not appear on Street View (between 2015 and latest Mar 2023)
+D1/South Philly,Friends of Manton Street Park & Community Garden,"405 Manton St, Philadelphia, PA 19147",12/4/2015,FALSE,N/A,FALSE,2,2,Operational,No approval stamp on plans.
+D1/Old City,"Second and Race Streets, LP","205 Race St, Philadelphia, PA 19106",5/12/2015,TRUE,6/2/2015,FALSE,4,2,Operational,"4 on plans, 2 built"
+D5/East Kensington,1350 Mascher Street Associates LP,"1350 N Mascher St, Philadelphia, PA 19122",4/16/15,TRUE,5/26/2015,FALSE,N/A,0,Never Built,"No plans doc, no racks seen on Street View from 2015-latest date (Apr 2023)"
+D1/Chinatown,8th & Filbert Streets Garage (Philadelphia Parking Authority),"726 Arch St, Philadelphia PA 19106",5/15/2015,FALSE,9/30/2015,TRUE,13,9,Operational,"If I'm reading the plans right, there were 24 bike racks on the first submission, and 13 racks on the final (fourth!) submission, but I only see 9 racks on Street View"
+D1/Center City,Hines Walnut Street Associates LP,"1213 Walnut St, Philadelphia, PA 19107",5/7/2015,TRUE,5/26/2015,FALSE,5,3,Operational,"5 racks proposed on plans, 3 built (1 on Walnut, 2 on Sansom), 2 removed/destroyed, 1 remains."
+D5/Rittenhouse,Nelson,"1760 Market St, Philadelphia PA 19103",4/19/2016,FALSE,NA,TRUE,2,2,Operational,"Inverted U. No approval doc in folder. Street View shows the racks as far back as Aug '09, so not sure why application in '16."
+D5/Fishtown,Clean Air Council,"1619 Frankford Ave, Philadelphia PA  19125",NA,TRUE,12/6/2016,TRUE,1,1,Operational,"Bright green, leaf-shaped. No application doc in folder."
+D1/Kensington,New Kensington Community Development Corporation,"2721 Ruth St, Philadelphia PA 19134-3407",12/16/2015,FALSE,NA,FALSE,1,0,Never Built,"Not on Street View as of Mar 2023, vacant lot where apts planned. No approval doc in folder."
+D1/Center City,"BJP Chestnut Owner, LLC","1112 Chestnut St, Philadelphia PA 19107",6/21/2016,TRUE,7/7/2016,TRUE,9,7,Operational,"Inverted U. 9 racks approved (5 on Chestnut, 4 on Sansom). 7 racks exist (4 on Chestnut, 3 on Sansom). Chestnut: looks like 3 were built, and 1 was pre-existing where 2 were planned. 3 racks currently on Sansom; 1 looks bent."
+D5/Temple,1324 N Broad LLC,"1324 N Broad St, Philadelphia, PA  19121-4303",1/19/2017,FALSE,NA,FALSE,3,0,Never Built,"No approval doc in folder (""PLAN SET.pdf"" is proposed plans without approval stamp). No racks on Street View April 2023. "
+D1/Center City,NA,"101 N Broad St, Philadelphia, PA 19107",NA,TRUE,3/18/2016,TRUE,2,2,Operational,Inverted U. No application doc in folder.
+D1/Fishtown,Amalgam Comics & Coffeehouse,"2578 Frankford Ave, Philadelphia PA 19125",3/10/2016,TRUE,NA,TRUE,1,1,Operational,"Red chevrons in a blue frame. No date on approval stamp. In folders named ""Clean Air Council Group of 5 Bike Racks/11_16_2016 Submission"""
+D5/Fishtown,Philadelphia Record Exchange,"1524 Frankford Ave, Philadelphia PA 19125",6/2/2016,TRUE,NA,TRUE,1,1,Operational,"Trapezoidal shape. No date on approval stamp. In folders named ""Clean Air Council Group of 5 Bike Racks/11_16_2016 Submission"""
+D1/Fishtown,Murph's Bar,"202 E Girard Ave, Philadelphia PA",2/24/16,TRUE,NA,FALSE,1,0,Never Built,"Shamrock shape. No date on approval stamp. In folders named ""Clean Air Council Group of 5 Bike Racks/11_16_2016 Submission"""
+D5/Fishtown,Cedar Point Bar & Kitchen,"2370 E Norris St, Philadelphia PA 19125",6/8/2016,TRUE,NA,TRUE,1,1,Missing,"Orange Fibonacci spiral. 1 regular inverted U rack next to it not in documents. Built between Aug 2017 and May 2018; taken out between May 2020 and Dec 2021. No date on approval stamp. In folders named ""Clean Air Council Group of 5 Bike Racks/11_16_2016 Submission"""
+D1/Fishtown,Firth & Wilson Transport Cycles,"1105 Frankford Ave, Philadelphia PA 19125",3/22/16,TRUE,NA,TRUE,1,1,Operational,"Trellis. No date on approval stamp. In folders named ""Clean Air Council Group of 5 Bike Racks/11_16_2016 Submission"""
+D2/Center City,Tindley Temple United Methodist Church,"750 S Broad St, Philadelphia PA 19146",8/22/2016,TRUE,11/4/2016,FALSE,1,0,Never Built,"Inverted U, to be long-term lease from city. "
+D5/Center City,SEPTA,"1500 Market St, Philadelphia PA 19102",2/24/2016,FALSE,NA,TRUE,3,2,Operational,"3 proposed, unknown # approved, 2 built. Existing bike rack to be relocated due to curb bump-out. NW corner of intersection. Bike rack plans on pages 17 and 23, but no approval stamp."
+D5/Center City,South 19th St Hotel,"31 S 19th St, Philadelphia PA 19103",NA,TRUE,12/29/2016,FALSE,5,0,Never Built,"Proposed bike racks are on Ranstead (search for 1899 Ranstead St), not 19th St. No application doc in folder. "
+D5/Fishtown,Fishtown Bikes-n-Beans,"1321 N Front St, Philadelphia PA 19122",2/24/2016,TRUE,5/2/2016,TRUE,1,1,Missing,"Blue and pink irregular pentagon. Disappears between Nov 2019 and May 2022. In folders ""Clean Air Council Group of 6 Bike Racks ROW#2016-1201/4_26_2016 Submission/"""
+D7/Fishtown,Fast Ed's Collectibles,"2143 N Front St, Philadelphia PA, 19122",3/8/2016,FALSE,NA,TRUE,1,1,Operational,"Bright green, leaf-shaped. No approval doc in folder. In folders ""Clean Air Council Group of 6 Bike Racks ROW#2016-1201/4_26_2016 Submission/"""
+D5/Fishtown,Front Street Cafe,"1247 N Front St, Philadelphia PA 19122",2/5/2016,TRUE,5/2/2016,TRUE,1,1,Operational,"Bright green, leaf-shaped. In folders ""Clean Air Council Group of 6 Bike Racks ROW#2016-1201/4_26_2016 Submission/"""
+D7/Fishtown,Tandoor,"1832 N Front St, PHiladelphia PA 19122",2/10/2016,TRUE,5/2/2016,TRUE,1,1,Missing,"Blue and pink irregular pentagon. Disappears between Jul 2017 and Oct 2018. In folders ""Clean Air Council Group of 6 Bike Racks ROW#2016-1201/4_26_2016 Submission/"""
+D5/Fishtown,Good Spoon,"1400 N Front St, Philadelphia PA, 19122",NA,TRUE,5/2/2016,TRUE,1,1,Operational,"Bright green, leaf-shaped. Missing application: the file named ""Good Spoon"" is an application for Front St Cafe. Good Spoon closed but was at 1400 N Front St (now Liberty Kitchen who moved from the block south). In folders ""Clean Air Council Group of 6 Bike Racks ROW#2016-1201/4_26_2016 Submission/"""
+D7/Kensington,Thang Long,"2536 Kensington Ave, Philadelphia PA, 19125",2/19/2016,TRUE,5/2/2016,TRUE,1,1,Operational,"Bright green, leaf-shaped. In folders ""Clean Air Council Group of 6 Bike Racks ROW#2016-1201/4_26_2016 Submission/"""
+D1/South Philly,NA,"405 Manton St, Philadelphia PA 19147",NA,TRUE,4/4/2016,TRUE,2,2,Operational,"Inverted U, bright green. Outside community garden. No application doc."
+D5/North Philly,NA,"655 N Broad St PHILADELPHIA, PA 19123-2418",NA,FALSE,NA,FALSE,NA,0,Unknown,"Only doc in folder is a spec sheet (no application or approval docs). 655 N Broad St has a Santucci's, and I don't see any bike racks either on Broad or the cross St Wallace."
+D1/South Philly,NA,"1111 S Broad St PHILADELPHIA, PA 19147-4410",NA,TRUE,8/27/16,FALSE,3,0,Never Built,Arc type. No application doc in folder.
+D1/Center City,City of Philadelphia Water Department,"1101 Market St, Philadelphia, PA 19107",1/22/16,FALSE,NA,TRUE,3,3,Operational,Inverted U. No approval stamp on plans.
+D5/Logan Square,Sterling Apartments,"1801 JFK Blvd, Philadelphia, PA, 19103",12/6/2016,TRUE,12/16/2016,TRUE,1,1,Missing,"Inverted U. Appears as far back as Jul 2007. Very tilted in Sep 2018, gone by Nov 2019. "
+D7/Fishtown,1834 Frankford LLC,"1834 Frankford Ave, Philadelphia, PA 19125",10/21/2015,FALSE,NA,TRUE,1,1,Operational,No plan or approval docs in folder
+D5/Temple,Temple University,"1816 N 15th St, Philadelphia PA 19121",10/6/2016,FALSE,NA,FALSE,12,17,Operational,"Triangles with rounded top. 5 planned on 15th, 12 (4 groups of 3) planned on W. Montgomery Ave. All 17 in Street View. No approval stamp on plans. 12 more bike racks visible next to door but not on plans (not considered sidewalk, I think)"
+D5/Fishtown,NA,"1512 Frankford Ave, Philadelphia, PA 19125",NA,TRUE,12/6/16,FALSE,1,0,Unknown,Asterisk shaped in square frame. Can't see on Street View. No application in folder. Part of Clean Air Council group. Condo at this address.
+D3/West Philly,NA,"3921 Chestnut St, Philadelphia, PA 19104",11/23/2016,FALSE,NA,TRUE,14,3,Operational,"14 inverted U planned, 3 wave built. No approval stamp."
+D1/Center City,Lit Brothers Streetscape,"701 Market St, Philadelphia, PA 19106",5/12/2016,FALSE,NA,FALSE,3,3,Operational,"""Combined Set.pdf"" looks entirely blank to me. There are 3 bike racks with metal hat designs outside Lit Brothers (""Hats trimmed free of charge"")"
+D5/Fishtown,NA,"1451 E Columbia Ave, Philadelphia, PA 19125",NA,TRUE,12/6/16,TRUE,1,1,Operational,"Square proposed, circles built. Part of Clean Air Council group. "
+D5/North Philly,Philadelphia Housing Authority,"2013 Ridge Ave, Philadelphia, PA 19121",11/18/2016,FALSE,NA,TRUE,5,4,Operational,"5 proposed, 4 built"
+D1/Fishtown,NA,"2233 Frankford Ave, Philadelphia, PA 19125",NA,TRUE,12/6/2016,TRUE,1,1,Operational,"Bright green, leaf-shaped. No application in folder. Part of Clean Air Council group. Circle Thrift at this address."
+D1/Northern Liberties,145 W. Wildey Lot Assoc.,"145 W. Wildey St, Philadelphia, PA 19123",4/11/16,FALSE,NA,TRUE,4,2,Operational,"In folder named ""814-830 Spring Garden St"". 4 proposed, 2 built. Piazza parking garage at this address."
+D5/Brewerytown,Fairmount CDC,"2500 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2524 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+,NA,"2533 W Girard Ave, Philadelphia, PA 19130",NA,TRUE,NA,TRUE,1,1,Missing,
+,NA,"2604 W Girard Ave, Philadelphia, PA 19130",NA,TRUE,NA,TRUE,1,1,Missing,"Built between Oct 2016 and Jul 2017, disappears between Jul 2019 and Nov 2020"
+D5/Brewerytown,Fairmount CDC,"2533 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,2,2,Operational,"Built between Oct 2016 and Aug 2017, disappears between Jul 2019 and Aug 2021"
+D5/Brewerytown,Fairmount CDC,"2604 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,2,1,Operational,1 current (but tilted) although 2 planned
+D5/Brewerytown,Fairmount CDC,"2601 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2621 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2637 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2701 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,2,2,Operational,
+D5/Brewerytown,Fairmount CDC,"2702 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2711 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2737 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2800 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2805 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2816 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,2,2,Operational,
+D5/Brewerytown,Fairmount CDC,"2818 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Brewerytown,Fairmount CDC,"2831 W Girard Ave, Philadelphia, PA 19130",3/23/2016,TRUE,4/15/2016,TRUE,1,1,Operational,
+D5/Rittenhouse,Motto Hotel,"31 S 19th St, Philadelphia, PA 19103",12/23/2016,FALSE,,FALSE,5,0,Never Built,"Probably Rejected, utilities put in the location indicated for bike racks"
+D5/Olde Kensington,Central Tattoo Studio,"171 W Girard Ave, Philadelphia, PA 19123",2/7/17,FALSE,,FALSE,1,0,Never Built,"Bad Design, glad it wasn't built 8"" flat metal horizontal, more sculpture than rack"
+D5/Olde Kensington,Street Side,"165 W Girard Ave, Philadelphia, PA 19123",2017,FALSE,,FALSE,1,0,Never Built,"No room for bike Rack with Utility poles, trees, and planters"
+D1/Center City,Cambria Hotel,"219 S Broad St, Philadelphia, PA 19107",3/31/2017,TRUE,7/12/2017,FALSE,7,0,Never Built,"Sad, 7 Bike racks in center city never built after a full footway reconstruction, there are some existing bad bike corrals nearby however"
+D5/Fishtown,Fishtown Animal Hospital,"2840 W Girard Ave, Philadelphia, PA 19130",2016,TRUE,12/6/16,TRUE,2,1,Operational,"2 proposed, 1 built, okay shape, rusty but gets repainted"
+D5/Spring Garden,The Hamilton,"2905 W Girard Ave, Philadelphia, PA 19130",3/24/2017,FALSE,,TRUE,6,9,Operational,"6 proposed 9 built?!? no idea how that happened, rusty but good condition"
+D1/Callowhill,Wing Lee Investment,"900 Callowhill St, Philadelphia, PA 19123",3/30/2017,FALSE,,FALSE,16,0,Never Built,"Project fell through, still a parking lot"
+D2/Point Breeze,Mattel Family Pizza,"1258 Point Breeze Ave, Philadelphia, PA 19146",4/25/2017,FALSE,,FALSE,1,0,Never Built,"Worst plans I have ever seen, written on a napkin, buisness went under"
+D2/Center City,The Royal,"1520 South St, Philadelphia, PA 19146",2017,FALSE,,FALSE,2,0,Never Built,"Removed Exisiting bike rack, none installed to replace it probably entrance issues"
+D5/Franklintown,IVY Realties,"1600 Callowhill St, Philadelphia, PA 19130",7/28/2017,FALSE,,FALSE,4,0,Never Built,"Confusing, I see no reason these wouldn't be built, maybe rejected?"
+D5/Rittenhouse,,"1700 Sansom St, Philadelphia, PA 19103",7/11/2017,FALSE,,FALSE,3,0,Never Built,"Rejected, Footway was already less than 6'"
+D3/University City,Stratford Hamilton LP,"3618 Chestnut St, Philadelphia, PA 19104",2/6/2017,FALSE,,TRUE,4,5,Operational,"4 proposed 5 built? good condition, bad design. "
+D1/Center City,Fashion DIstrict,"901 Market St, Philadelphia, PA 19107",3/17/17,FALSE,,TRUE,26,11,Operational,"26 proposed, many never were built, some removed in 2022 construction and never replaced"
+D5/Fishtown,Green Aisle Grocery,"11 W Girard Ave, Philadelphia, PA 19123",1/10/2017,FALSE,,FALSE,1,0,Never Built,"Bad Design, fibonachi spiral again, bad design, buisness closed"
+D5/Center City,JFK/Love Park,"1500 Arch St, Philadelphia, PA  19102",7/29/2017,FALSE,,TRUE,16,16,Operational,"These look good, did you know that Love Park is privately owned???"
+D2/Passyunk,Licoln Square Property LLC,"1000 S Broad St, Philadelphia, PA 19146",12/5/2016,FALSE,,TRUE,20,20,Operational,Looking good!
+D5/Yorktown,View II,"1101 Cecil B Moore Ave, Philadelphia, PA 19122",7/3/2017,FALSE,,TRUE,12,12,Operational,U rack proposed but some circular racks were built
+D3/University City,SEPTA,"3001 Market St,Philadelphia, Pennsylvania, 19104",6/4/2018,FALSE,,FALSE,6,0,Never Built,Bike racks removed! Not Built! 
+D8/Chestnut HIll,Fire Department,"101 W Highland Ave, Philadelphia, PA 19118",3/15/2018,FALSE,,TRUE,4,4,Operational,"All built, not sure if they get used much, but nice to see the fire dep. do good bike stuff"
+D1/Center City,SEPTA,"500 Market St, Philadelphia, PA, 19106",2/5/2018,FALSE,,TRUE,9,9,Operational,"All built, plans show 90 deg but got built at 45 degree to curb"
+D5/North Philadelphia,PHILAbundance,"2224 N 10th St, Philadelphia, PA, 19133",10/5/2018,FALSE,,TRUE,1,1,Missing,"Built, lasted 2 years, removed at some point, but theres indego there now"
+D7/Kensington,Esperanza health Center,"3222 H Street,  Philadelphia, PA 19134",11/8/2018,FALSE,,TRUE,14,7,Operational,"14 proposed, 7 built, 5 remaining, looking good!"
+D3/University City,Chestnut Hall Aparments,"3900 Chestnut, Philadelphia, PA 19104",1/31/2018,FALSE,,FALSE,5,0,Never Built,"proposed bumpout, with bike coral, never approved probably"
+D4/Manayunk,Union Tap House,"4801 Umbria St, Philadelphia, PA 19127",8/10/18,FALSE,,FALSE,1,0,Never Built,Probably not approved
+D4/West Philadelphia,New Market West,"5901 Market St, Philadelphia, PA 19139",9/6/2018,FALSE,,FALSE,15,0,Never Built,"not sure why not approved, maybe scrapped for cost"
+D8,Germantown Boys and Girls Club,"23 W Penn St, Philadelphia, PA 19144",11/6/2019,FALSE,,TRUE,4,4,Operational,Inverted U staple
+D3,Venture Lab,"115 S 40th St, Philadelphia, PA 19104",2/6/2019,FALSE,,TRUE,4,4,Operational,Inverted U staple
+D5,"SGD Girard II, LLC","416 W Girard Ave, Philadelphia, PA 19123",10/23/19,FALSE,,FALSE,3,0,Unknown,Latest street view 09/2019. Cross street view from 09/2021 shows building in progress
+D1,Richard Young,"1101 S 9th St, Philadelphia, PA 19147",12/12/2019,FALSE,,FALSE,5,0,Unknown,Street view construciton as of 03/2023
+D1,"US Capital Investments 3, LLC","1102 Germantown Ave, Philadelphia, PA 19123",1/28/2019,FALSE,,FALSE,8,0,Unknown,Street view construciton as of 03/2023
+D1,"Northern Liberties Devlopment, LP","1104 N Hancock St, Philadelphia, PA 19123",8/22/2019,FALSE,,FALSE,10,0,Unknown,Street view construciton as of 07/2022
+D5,Orens Brothers Real Estate Inc,"1314 N Broad St, Philadelphia, PA 19121",9/13/19,FALSE,,FALSE,3,0,Never Built,
+D5,Laborers’ District Council Education and Training Fund,"1333 N Broad St, Philadelphia, PA 19122",3/11/2019,FALSE,,FALSE,3,0,Never Built,
+D2,James C. Campbell,"1609 South St, Philadelphia, PA 19146",5/8/2019,FALSE,,TRUE,2,2,Operational,Inverted U staple
+D5,Denise Collins,"2100 Hamilton St, Philadelphia, PA 19130",9/14/2018,FALSE,,FALSE,6,0,Never Built,
+D1,Jess Lawrence,"2600 E Hagert St, Philadelphia, PA 19125",8/12/2019,FALSE,,FALSE,9,0,Unknown,Street view construciton as of 03/2023
+D1,SEPTA,"2781 Kensington Ave, Philadelphia, PA 19134",3/11/2019,FALSE,,FALSE,3,0,Unknown,Street view no progress as of 03/2023. Loop racks on plans
+D3,American Campus Communities,"3301 Arch St, Philadelphia, PA 19104",1/21/19,FALSE,,FALSE,11,11,Operational,Inverted squared U staple
+D1/Northern Liberties,Fairmount Street Partners L.P.,"700 N Delaware Ave, Philadelphia, PA 19123",6/15/2020,TRUE,10/13/2020,FALSE,7,0,Unknown,Latest Street View (2023) shows construction.
+D3/University City,"""Vacant Commercial Space""","4415 Chestnut St, Philadelphia, PA 19104",11/12/2020,TRUE,12/7/2020,TRUE,2,2,Operational,Inverted U. Developer on blueprints is Orens Development. Owner listed on property.phila.gov is 4415 Chestnut LLC.
+D2/Grays Ferry,Fitler Estates LLC,"2401 Washington Ave, Philadelphia, PA 19146",6/26/2020,TRUE,9/8/2020,FALSE,14,0,Unknown,Latest Street View (2019) is prior to approval.
+D2/South Philly,St. Rita's Place & Cascia Center,"1148 S Broad St, Philadelphia, PA 19146",1/21/2020,TRUE,6/3/2020,TRUE,4,1,Operational,"Plans show 4 racks: 1 bike rack on Broad, 2 racks on Ellsworth, and 1 next to parking behind building on Carlisle. Street View shows 1x 2-hump wave on Broad, 1x 2-hump wave on Ellsworth, and no recent views of Carlisle."
+D2/South Philly,St. Rita's Place & Cascia Center,"110 S Carlisle St, Philadelphia, PA, 19146",1/21/2020,TRUE,6/3/2020,TRUE,4,1,Operational,"Plans show 4 racks: 1 bike rack on Broad, 2 racks on Ellsworth, and 1 next to parking behind building on Carlisle. Street View shows 1x 2-hump wave on Broad, 1x 2-hump wave on Ellsworth, and no recent views of Carlisle."
+D2/South Philly,St. Rita's Place & Cascia Center,"1400 Ellsworth St, Philadelphia, PA 19146",1/21/2020,TRUE,6/3/2020,TRUE,4,2,Operational,"Plans show 4 racks: 1 bike rack on Broad, 2 racks on Ellsworth, and 1 next to parking behind building on Carlisle. Street View shows 1x 2-hump wave on Broad, 1x 2-hump wave on Ellsworth, and no recent views of Carlisle."
+D3/West Philly,Post 4701 Pine St LP,"4701 Pine St, Philadelphia, PA 19143",12/11/2020,FALSE,N/A,FALSE,8,0,Never Built,"No approval stamp on plans. 8 slanted lines on Pine St (group of 7 and 1 lone, on either side of garage entry on Pine St) that I assume are meant to be bike racks but are not specifically marked as such. Latest Street View (Apr 2024) shows construction on façade but no evidence of any bike racks."
+D5/North Philly,510 Broad Partners LLC,"510 N Broad St, Philadelphia, PA 19130",3/10/2020,FALSE,N/A,TRUE,6,6,Operational,Inverted U. Outside Giant grocery store.
+D1/Fishtown,"""Proposed Residential Building""","1130 N Delaware Ave, Philadelphia, PA 19125",1/22/20,TRUE,3/26/2020,FALSE,13,0,Unknown,Neither building nor racks show on Street View as of Apr 2022
+D2/Rittenhouse,Southern Land Company,"1620 Sansom St, Philadelphia, PA 19103",8/5/2020,FALSE,N/A,FALSE,2,0,Unknown,No approval stamp on plans. Unknown whether built; latest Street View is Nov 2020
+D7/East Kensington,"Spanish Capital Investments 8, LLC","1510 N Randolph St, Philadelphia, PA 19122",12/19/2019,TRUE,2/10/2020,FALSE,8,0,Unknown,Unknown whether built; latest Street View is Aug 2019
+D9/Callowhill,Elk Street Management,"545 N Broad St, Philadelphia, PA 19123",6/17/2020,TRUE,7/17/20,TRUE,7,7,Operational,
+D1/South Philly,South Philly Food Co-op,"2031 S Juniper St, Philadelphia, PA 19148",10/1/2020,TRUE,11/9/2020,FALSE,1,0,Unknown,Unknown whether built; latest Street View is Oct 2019
+D8/North Philly,10 North Station,"2932 N Broad St, Philadelphia, PA 19132",8/25/2020,TRUE,10/1/2020,FALSE,30,0,Never Built,This was part of a plan to redevelop the area around Amtrak's North Philly station. Never happened.
+D5/Logan Square,Exeter Property Group,"1701 Race St, Philadelphia, PA, 19103",6/2/2020,TRUE,8/21/2020,TRUE,6,6,Operational,
+D7/East Kensington,Northern Star Development Corporation,"175 W Oxford St, Philadelphia, PA 19122",10/14/2020,TRUE,11/24/2020,FALSE,9,0,Unknown,Unknown whether built; latest Street View is Aug 2019
+D5/Rittenhouse,PMC Property Group,"33 N 22nd St, Philadelphia, PA 19103",9/25/2020,FALSE,N/A,FALSE,8,0,Never Built,Application form unsigned. This is the building that was supposed to go into where the parking lot for Trader Joe's is.
+D1/Northern Liberties,Poplar Delaware Development,"918 N Delaware Ave, Philadelphia, PA 19123",8/3/2020,TRUE,7/19/2021,FALSE,17,0,Never Built,Currently under construction - building apparently has total 180 resident bike stalls!
+D2/Rittenhouse,"""Proposed Office BUilding""","2222 Market St, Philadelphia, PA 19103",1/29/2020,FALSE,N/A,FALSE,10,9,Operational,10 bike racks on plans; 9 bike racks on Street View. No approval stamp on plans. 
+D5/Callowhill,N/A,"1200 Ridge Ave, Philadelphia, PA 19123",8/31/2020,TRUE,9/9/2020,FALSE,3,0,Never Built,Currently under construction 
+D5/North Philly,"Sharswood Partners, LLC","2051 Ridge Ave, Philadelphia, PA 19121",1/20/2020,FALSE,N/A,TRUE,4,4,Operational,Plans are low-res and hard to read. 4 racks seen on Street View. No approval stamp.
+D8/Mount Airy,"BGSP, LP","360 W Mt Pleasant Ave, Philadelphia, PA 19119",7/3/2020,TRUE,2/26/2021,FALSE,4,0,Never Built,Neither building nor racks show on Street View as of Jun 2024
+D1/Old City,300 columbus llc,"300 N Christopher Columbus Blvd, Philadelphia, PA 19106",8/6/2021,TRUE,10/14/2021,FALSE,18,0,Never Built,"maybe if the project proceeds these will be built, nothing so far"
+D5/Poplar,601 Chestach LLC,"601 Spring Garden St, Philadelphia, PA 19123",5/19/2020,TRUE,4/16/2021,TRUE,10,2,Operational,"10 proposed, 2 built"
+D1/Northern Liberties,Northern Liberties Nieghboors Association,"700 N 3rd St, Philadelphia, PA 19123",9/25/2020,TRUE,4/27/2021,TRUE,4,1,Operational,"4 proposed, 1 built"
+D1/Center City,PPA,"701 Market St, Philadelphia, PA 19106",7/16/2018,FALSE,,FALSE,0,0,Unknown,"not an application, but a withrawl of application, racks built outside of ROW"
+D5/Olde Kensignton,Middle Child Clubhouse,"1232 N Front St, Philadelphia, PA 19122",3/3/2021,TRUE,4/27/2021,FALSE,9,0,Never Built,"would have been great to have these, not sure what happened"
+D5/Francisville,Muse Yoga and Fitness,"1513 Ridge Ave, Philadelphia, PA 19130",6/14/2021,FALSE,,TRUE,3,3,Operational,good condition! yay
+D1/Center City,Bailey Chestnut Partners,"1218 Chestnut St, Philadelphia, PA 19107",5/13/21,TRUE,5/26/2021,TRUE,5,5,Operational,"very heavily used, quickly approved"
+D7,Monarch Yoga,"171 W Berks St, Philadelphia, PA 19122",3/24/2022,FALSE,,TRUE,7,7,Operational,Some racks shown on plans spotted on street view 03/2023
+D5,Fishtown Neighbors Assn - Rose Garden,"1401 Frankford Ave, Philadelphia, PA 19125",12/3/2021,FALSE,,TRUE,5,5,Operational,Staple racks shown on plan. Ring and post racks shown on street view 03/2023
+D7,Laura Barron,"1749 N Hancock St, Philadelphia, PA 19122",6/14/2021,FALSE,,FALSE,1,0,Unknown,Appears to be a private house. No recent street view
+D2,OCF Coffee House,"2001 Federal St, Philadelphia, PA 19146",6/20/2022,FALSE,,FALSE,5,0,Unknown,Racks shown on intersecting S 20th St. No recent street view
+D1,Modern Development Group,"2534 Emerald St, Philadelphia, PA 19125",6/13/2022,FALSE,,FALSE,2,0,Unknown,Appears to be a private house. Racks shown on intersecting Sergeant St. No recent street view.
+D8,Germantown United CDC/Maplewood Mall,"2 W Armat St, Philadelphia, PA 19144",8/28/2023,FALSE,,FALSE,5,0,Unknown,Not on street view as of 03/2023
+D1,Core Realty/Philadelphia Distilling,"25 E Allen St, Philadelphia, PA 19123",5/12/2023,FALSE,,FALSE,10,0,Unknown,Not on street view as of 03/2023
+D8,Germantown United CDC/Maplewood Mall,"99 W Armat St, Philadelphia, PA 19144",8/28/2023,FALSE,,FALSE,2,0,Unknown,Not on street view as of 03/2023
+D1,SUPI Schmidt's LLC,"180 W Girard Ave, Philadelphia, PA 19123",8/26/2022,FALSE,,FALSE,6,0,Unknown,Not on street view as of 03/2023
+D8,Germantown Development Association LLC,"322 W Chelten Ave, Philadelphia, PA 19144",2/17/2022,FALSE,,FALSE,1,0,Unknown,Last street view 09/2019
+D1,Core Realty/Brooklyn Bowl,"1009 Canal St, Philadelphia, PA 19123",5/12/2023,FALSE,,FALSE,12,0,Unknown,Last street view 03/2019
+D5,Alexander Adaire K-8 School,"1300 E Palmer St, Philadelphia, PA 19125",2/20/2023,FALSE,,FALSE,4,0,Unknown,Not on street view as of 03/2023
+D5/D7,Six Acre Capital,"1525 N American St, Philadelphia, PA 19122",3/11/2023,FALSE,,FALSE,4,0,Unknown,Construction shown on street view as of 08/2023
+D5,Temple University,"1835 N 12th St, Philadelphia, PA 19122",10/14/2022,FALSE,,FALSE,12,0,Unknown,Last street view 07/2022
+D1,The Philadelphia Barber Co,"2414 Frankford Ave, Philadelphia, PA 19125",3/17/2023,FALSE,,FALSE,1,0,Unknown,Last street view 03/2023
+D1,Ruth Street Civic House,"2721 Ruth St, Philadelphia, PA 19134",7/5/2023,FALSE,,FALSE,4,0,Unknown,Last street view 03/2023
+D3,"Brandywine 3025 JFK, LP","3025 John F Kennedy Blvd, Philadelphia, PA 19104",5/17/2023,FALSE,,TRUE,10,10,Operational,Inverted V staples
+D4,Vault + Vine,"3507 Midvale Ave, Philadelphia, PA 19129",4/30/2023,FALSE,,FALSE,2,0,Unknown,Last street view 11/2020
+D4,Taqueria Cresta,"3743 Midvale Ave, Philadelphia, PA 19129",6/13/2023,FALSE,,FALSE,1,0,Unknown,Last street view 11/2020
+D4,Inn Yard Park,"4241 Ridge Ave, Philadelphia, PA 19129",4/30/2023,FALSE,,FALSE,3,0,Unknown,Last street view 11/2023
+D8,Hansberry Garden & Nature Center Inc,"5150 Wayne Ave, Philadelphia, PA 19144",2/28/2022,FALSE,,FALSE,4,0,Unknown,Not on street view as of 10/2024
+D8,Stan Smith,"5223 Germantown Ave, Philadelphia, PA 19144",2/17/2022,FALSE,,FALSE,2,0,Unknown,Not on street view as of 04/2023
+D8,Uncle Bobbies Books,"5445 Germantown Ave, Philadelphia, PA 19144",4/11/2022,FALSE,,FALSE,1,0,Unknown,Not on street view as of 03/2023
+D8,Ultimo Coffee,"5901 Wayne Ave, Philadelphia, PA 19144",,FALSE,,FALSE,6,0,Unknown,Not on street view as of 10/2023
+D4,Good Shepherd Senior Housing,"6400 Lansdowne Ave, Philadelphia, PA 19151",11/7/2023,FALSE,,FALSE,3,0,Unknown,Construction shown on street view as of 08/2024
+D3/University City,NA,"3700 Spruce St, Philadelphia, PA 19104",NA,FALSE,NA,FALSE,8,0,Unknown,"SEPTA trolley station at 37th, 8 planned on westbound side. No application doc. No approval stamp. Not on Street View."
+D8/Mount Airy,Mt Airy Playground Advisory Council,"7001 Germantown Ave, Philadelphia, PA 19119",3/26/2024,FALSE,NA,FALSE,5,0,Unknown,No approval stamp.
+D8/Mount Airy,Our Kingdom,"6730 Germantown Ave, Philadelphia, PA 19119",1/12/2024,FALSE,NA,FALSE,1,0,Unknown,No approval stamp.
+D8/Mount Airy,SEPTA,"6721 Germantown Ave, Philadelphia, PA 19119",2/23/2024,FALSE,NA,FALSE,4,0,Unknown,Trolley car park. No approval stamp.
+D3/West Philly,African Cultural Alliance of North America,"5530 Chester Ave, Philadelphia, PA 19143",10/26/2023,FALSE,NA,FALSE,1,0,Unknown,No approval stamp.
+D3/University City,CHOP,"3500 Civic Center Blvd, Philadelphia, PA 19104",NA,FALSE,NA,FALSE,36,0,Unknown,Application signed but undated. No approval stamp.
+D3/University City,NA,"3151 Market St, Philadelphia, PA 19104",NA,FALSE,NA,FALSE,5,0,Unknown,Application signed but undated. No approval stamp.
+D5/Center City,NA,"1400 Arch St, Philadelphia, PA 19107",NA,FALSE,NA,FALSE,24,0,Unknown,Paine Plaza. Application signed but undated. No approval stamp.
+D8/Germantown,NA,"6320 Germantown Ave, Philadelphia, PA 19144",1/24/2024,FALSE,NA,FALSE,3,0,Unknown,No approval stamp.
+D8/Germantown,Young American Hard Cider,"6344 Germantown Ave, Philadelphia, PA 19144",1/25/2024,FALSE,NA,FALSE,3,0,Unknown,No approval stamp.
+D8/Mount Airy,Pelham Pocket Park,"6732 Germantown Ave, Philadelphia, PA 19119",1/12/2024,FALSE,NA,FALSE,1,0,Unknown,No approval stamp.
+D7/Fishtown,Philadelphia Parks & Recreation,"1800 Blair St, Philadelphia, PA 19125",9/5/2023,FALSE,NA,FALSE,11,0,Unknown,Shissler Rec. No approval stamp.
+D7/Fishtown,NA,"5001 Frankford Ave, Philadelphia, PA 19124",NA,FALSE,NA,FALSE,5,0,Unknown,Application signed but undated. No approval stamp.
+D8/Germantown,NA,"6316 Germantown Ave, Philadelphia, PA 19144",1/24/24,FALSE,NA,FALSE,2,0,Unknown,No approval stamp. Business name on application left blank.
+D8/Mount Airy,NA,"6614 Germantown Ave, Philadelphia, PA 19119",2/26/24,FALSE,NA,FALSE,1,0,Unknown,"Files named ""Winnites Bike Repair"" but business name on application left blank. No approval stamp."
+D1/Fishtown,Fishtown Dentistry,"244 E Girard Ave, Philadelphia, PA 19125",2/10/24,FALSE,NA,FALSE,2,0,Unknown,No approval stamp.
+D3/West Philly,3935 Ogden St,"3900 Ogden St, Philadelphia, PA 19104",6/18/24,FALSE,NA,FALSE,10,0,Unknown,No approval stamp.
+D6/Port Richmond,"M/K Amy James Martin School JV, LLC","3350 Richmond St, Philadelphia, PA 19134",2/20/24,FALSE,NA,FALSE,6,0,Unknown,No approval stamp.
