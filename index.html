@@ -118,13 +118,28 @@
     const data = await response.json();
 
     const defaultMarkerOptions = {
-      radius: 6,
+      radius: 3,
       fillColor: "gray", // fall back if status is an unknown value
       color: "#000",
       weight: 1,
       opacity: 1,
       fillOpacity: 0.8
     };
+
+    function getRadius(properties) {
+      const racks = Number.parseInt(properties['Number of Racks Built'], 10)
+      if (racks >= 10) {
+        return 6.5
+      } else if (racks >= 5) {
+        return 5.75
+      } else if (racks >= 2) {
+        return 5
+      } else if (racks >= 1) {
+        return 4
+      } else {
+        return 3
+      }
+    }
 
     // this gives us an array of markers we can programatically target
     // a little more flexible than using the built-in GeoJSON class
@@ -140,7 +155,8 @@
       const latlng = f.geometry.coordinates.toReversed();
       const options = {
         ...defaultMarkerOptions,
-        fillColor
+        fillColor,
+        radius: getRadius(f.properties)
       };
 
       f.marker = new CircleMarker(latlng, options).addTo(map);
