@@ -127,8 +127,16 @@
     };
 
     function getRadius(properties) {
-      const racks = Number.parseInt(properties['Number of Racks Built'], 10)
-      if (racks >= 10) {
+      const state = properties['Current State'];
+      let racks;
+      if (state === 'Operational') {
+        racks = Number.parseInt(properties['Number of Racks Built'], 10);
+      } else {
+        racks = Number.parseInt(properties['Number of Racks Proposed'], 10);
+      }
+      if (racks >= 15) {
+        return 7
+      } else if (racks >= 10) {
         return 6.5
       } else if (racks >= 5) {
         return 5.75
